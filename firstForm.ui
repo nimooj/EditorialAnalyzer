@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>700</width>
-    <height>936</height>
+    <width>698</width>
+    <height>883</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>50</y>
+     <y>40</y>
      <width>58</width>
      <height>16</height>
     </rect>
@@ -36,9 +36,9 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>470</y>
-     <width>331</width>
-     <height>451</height>
+     <y>370</y>
+     <width>341</width>
+     <height>501</height>
     </rect>
    </property>
    <property name="title">
@@ -48,9 +48,9 @@
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>140</y>
-      <width>241</width>
-      <height>101</height>
+      <y>180</y>
+      <width>251</width>
+      <height>151</height>
      </rect>
     </property>
     <property name="title">
@@ -59,14 +59,14 @@
     <widget class="QLabel" name="label_27">
      <property name="geometry">
       <rect>
-       <x>160</x>
-       <y>70</y>
+       <x>170</x>
+       <y>120</y>
        <width>41</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>C :</string>
+      <string>C</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -75,14 +75,14 @@
     <widget class="QLabel" name="label_28">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>70</y>
+       <x>10</x>
+       <y>120</y>
        <width>41</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>H :</string>
+      <string>H</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -91,9 +91,9 @@
     <widget class="QTextBrowser" name="Sub_R">
      <property name="geometry">
       <rect>
-       <x>40</x>
+       <x>30</x>
        <y>30</y>
-       <width>41</width>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -108,8 +108,8 @@
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>70</y>
-       <width>41</width>
+       <y>120</y>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -130,7 +130,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>G :</string>
+      <string>G</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -141,7 +141,7 @@
       <rect>
        <x>110</x>
        <y>30</y>
-       <width>41</width>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -155,9 +155,9 @@
     <widget class="QTextBrowser" name="Sub_C">
      <property name="geometry">
       <rect>
-       <x>180</x>
-       <y>70</y>
-       <width>41</width>
+       <x>190</x>
+       <y>120</y>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -172,13 +172,13 @@
      <property name="geometry">
       <rect>
        <x>90</x>
-       <y>70</y>
-       <width>41</width>
+       <y>120</y>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>V :</string>
+      <string>V</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -187,9 +187,9 @@
     <widget class="QTextBrowser" name="Sub_B">
      <property name="geometry">
       <rect>
-       <x>180</x>
+       <x>190</x>
        <y>30</y>
-       <width>41</width>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -203,14 +203,14 @@
     <widget class="QLabel" name="label_31">
      <property name="geometry">
       <rect>
-       <x>20</x>
+       <x>10</x>
        <y>30</y>
        <width>21</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>R : </string>
+      <string>R</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -219,14 +219,14 @@
     <widget class="QLabel" name="label_32">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>170</x>
        <y>30</y>
        <width>21</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>B :</string>
+      <string>B</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -235,9 +235,183 @@
     <widget class="QTextBrowser" name="Sub_H">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>70</y>
-       <width>41</width>
+       <x>30</x>
+       <y>120</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Sub_X">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>60</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>L*</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_17">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>60</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Z</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_18">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>90</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>b*</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>90</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>a*</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Sub_b">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>90</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_19">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>X</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Sub_a">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>90</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>60</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Y</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Sub_Y">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>60</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Sub_Z">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>60</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Sub_L">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>90</y>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -253,9 +427,9 @@
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>30</y>
-      <width>241</width>
-      <height>101</height>
+      <y>20</y>
+      <width>251</width>
+      <height>151</height>
      </rect>
     </property>
     <property name="title">
@@ -264,14 +438,14 @@
     <widget class="QLabel" name="label_12">
      <property name="geometry">
       <rect>
-       <x>160</x>
-       <y>70</y>
-       <width>41</width>
+       <x>170</x>
+       <y>120</y>
+       <width>21</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>C :</string>
+      <string>C</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -280,14 +454,14 @@
     <widget class="QLabel" name="label_8">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>70</y>
+       <x>10</x>
+       <y>120</y>
        <width>41</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>H :</string>
+      <string>H</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -296,9 +470,9 @@
     <widget class="QTextBrowser" name="Main_R">
      <property name="geometry">
       <rect>
-       <x>40</x>
+       <x>30</x>
        <y>30</y>
-       <width>41</width>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -313,8 +487,8 @@
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>70</y>
-       <width>41</width>
+       <y>120</y>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -335,7 +509,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>G :</string>
+      <string>G</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -346,7 +520,7 @@
       <rect>
        <x>110</x>
        <y>30</y>
-       <width>41</width>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -360,9 +534,9 @@
     <widget class="QTextBrowser" name="Main_C">
      <property name="geometry">
       <rect>
-       <x>180</x>
-       <y>70</y>
-       <width>41</width>
+       <x>190</x>
+       <y>120</y>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -377,13 +551,13 @@
      <property name="geometry">
       <rect>
        <x>90</x>
-       <y>70</y>
+       <y>120</y>
        <width>41</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>V :</string>
+      <string>V</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -392,9 +566,9 @@
     <widget class="QTextBrowser" name="Main_B">
      <property name="geometry">
       <rect>
-       <x>180</x>
+       <x>190</x>
        <y>30</y>
-       <width>41</width>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -408,14 +582,14 @@
     <widget class="QLabel" name="label_7">
      <property name="geometry">
       <rect>
-       <x>20</x>
+       <x>10</x>
        <y>30</y>
        <width>21</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>R : </string>
+      <string>R</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -424,14 +598,14 @@
     <widget class="QLabel" name="label_10">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>170</x>
        <y>30</y>
        <width>21</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>B :</string>
+      <string>B</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -440,9 +614,183 @@
     <widget class="QTextBrowser" name="Main_H">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>70</y>
-       <width>41</width>
+       <x>30</x>
+       <y>120</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>X</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>60</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Y</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>60</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Z</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>L*</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>90</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>a*</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>90</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>b*</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Main_X">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>60</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Main_Y">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>60</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Main_Z">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>60</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Main_L">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>90</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Main_a">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>90</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Main_b">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>90</y>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -458,9 +806,9 @@
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>280</y>
-      <width>241</width>
-      <height>111</height>
+      <y>340</y>
+      <width>251</width>
+      <height>151</height>
      </rect>
     </property>
     <property name="title">
@@ -469,14 +817,14 @@
     <widget class="QLabel" name="label_39">
      <property name="geometry">
       <rect>
-       <x>160</x>
-       <y>70</y>
+       <x>170</x>
+       <y>120</y>
        <width>41</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>C :</string>
+      <string>C</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -485,14 +833,14 @@
     <widget class="QLabel" name="label_40">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>70</y>
+       <x>10</x>
+       <y>120</y>
        <width>41</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>H :</string>
+      <string>H</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -501,9 +849,9 @@
     <widget class="QTextBrowser" name="Accent_R">
      <property name="geometry">
       <rect>
-       <x>40</x>
+       <x>30</x>
        <y>30</y>
-       <width>41</width>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -518,8 +866,8 @@
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>70</y>
-       <width>41</width>
+       <y>120</y>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -540,7 +888,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>G :</string>
+      <string>G</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -551,7 +899,7 @@
       <rect>
        <x>110</x>
        <y>30</y>
-       <width>41</width>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -565,9 +913,9 @@
     <widget class="QTextBrowser" name="Accent_C">
      <property name="geometry">
       <rect>
-       <x>180</x>
-       <y>70</y>
-       <width>41</width>
+       <x>190</x>
+       <y>120</y>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -582,13 +930,13 @@
      <property name="geometry">
       <rect>
        <x>90</x>
-       <y>70</y>
+       <y>120</y>
        <width>41</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>V :</string>
+      <string>V</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -597,9 +945,9 @@
     <widget class="QTextBrowser" name="Accent_B">
      <property name="geometry">
       <rect>
-       <x>180</x>
+       <x>190</x>
        <y>30</y>
-       <width>41</width>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -613,14 +961,14 @@
     <widget class="QLabel" name="label_43">
      <property name="geometry">
       <rect>
-       <x>20</x>
+       <x>10</x>
        <y>30</y>
        <width>21</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>R : </string>
+      <string>R</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -629,14 +977,14 @@
     <widget class="QLabel" name="label_44">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>170</x>
        <y>30</y>
        <width>21</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>B :</string>
+      <string>B</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -645,9 +993,183 @@
     <widget class="QTextBrowser" name="Accent_H">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>70</y>
-       <width>41</width>
+       <x>30</x>
+       <y>120</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Accent_L">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>90</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_24">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>X</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Accent_a">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>90</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Accent_X">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>60</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_23">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>90</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>a*</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_22">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>90</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>b*</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_21">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>60</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Z</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Accent_b">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>90</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Accent_Y">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>60</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>L*</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_25">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>60</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Y</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Accent_Z">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>60</y>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -659,51 +1181,152 @@
      </property>
     </widget>
    </widget>
+   <widget class="QLabel" name="mainColorLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>58</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="subColorLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>58</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="accentColorLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>58</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
   </widget>
   <widget class="QGroupBox" name="groupBox_5">
    <property name="geometry">
     <rect>
-     <x>370</x>
-     <y>470</y>
-     <width>311</width>
-     <height>211</height>
+     <x>380</x>
+     <y>370</y>
+     <width>301</width>
+     <height>191</height>
     </rect>
    </property>
    <property name="title">
     <string>IRI Color Scheme Image Scale</string>
    </property>
+   <widget class="QLabel" name="iriLabel0">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="iriLabel1">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>70</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="iriLabel2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>70</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="iriGroupName0">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
   </widget>
   <widget class="QGroupBox" name="groupBox_6">
    <property name="geometry">
     <rect>
-     <x>370</x>
-     <y>690</y>
-     <width>311</width>
-     <height>231</height>
+     <x>380</x>
+     <y>570</y>
+     <width>301</width>
+     <height>301</height>
     </rect>
    </property>
    <property name="title">
     <string>IRI Adjective Image Scale</string>
    </property>
-  </widget>
-  <widget class="QGroupBox" name="groupBox_7">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>380</y>
-     <width>661</width>
-     <height>80</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string>Color scheme (%)</string>
-   </property>
+   <widget class="QListWidget" name="iriAdjectivesList">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>281</width>
+      <height>231</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="iriGroupName1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
   </widget>
   <widget class="QScrollArea" name="scrollArea">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>70</y>
+     <y>60</y>
      <width>661</width>
      <height>301</height>
     </rect>
